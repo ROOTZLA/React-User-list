@@ -136,7 +136,7 @@ export default function UserForm({
             onChange={(event) => setValueWebsite(event.target.value)}
           />
           {valueWebsite && !valueWebsiteValid && (
-            <p className="text-red-600 text-[12px]">Please enter a valid Website URL.</p>
+            <p className="text-red-600 text-[12px]">Please enter a valid Website URL</p>
           )}
         </div>
       </div>
