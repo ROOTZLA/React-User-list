@@ -109,7 +109,7 @@ export default function UserForm({
 
       <div className="form text-white text-20 p-1">
         <div className="fields pt-2.5 text-[13px]">
-          <label className="block">Email*</label>
+          <label className="block">E-mail*</label>
           <input
             type="email"
             value={valueEmail}
